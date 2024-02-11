@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129411026795",
+    "project_id": "home-design-decor-and-makeover",
+    "storage_bucket": "home-design-decor-and-makeover.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129411026795:android:8a6998bbc62f7f461a462e",
+        "android_client_info": {
+          "package_name": "com.adareonstudios.HomeDesignDecorandMakeover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129411026795-43l0tjdq3prr9u7umac4h31h1hsbnbja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrj8neB3hi9Bcknf8gqrInizIKrt6_hkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129411026795-43l0tjdq3prr9u7umac4h31h1hsbnbja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
