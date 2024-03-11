@@ -491,7 +491,7 @@ public class GameMain : MonoBehaviour
 		//	MonoSingleton<AdNetworkManager>.Instance.DestoryBanner();
 		ProcessAfterOnMessageStartCompleted();
 		Match3GameUI.Instance.UpdateTextBoosterCount();
-        Firebase.Analytics.FirebaseAnalytics.LogEvent("started_" + PlayerData.current.match3Data.level.ToString() + "_level");
+        //Firebase.Analytics.FirebaseAnalytics.LogEvent("started_" + PlayerData.current.match3Data.level.ToString() + "_level");
     }
 
 	public int[] headstartBooster = new int[3];
@@ -1312,7 +1312,7 @@ public class GameMain : MonoBehaviour
 		// WIN GAME
 		PlayerData playerData = PlayerData.current;
 
-        Firebase.Analytics.FirebaseAnalytics.LogEvent("level_" + playerData.match3Data.level.ToString() + "_compleated");
+        //Firebase.Analytics.FirebaseAnalytics.LogEvent("level_" + playerData.match3Data.level.ToString() + "_compleated");
 
         playerData.match3Data.level++;
 
